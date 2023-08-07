@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Cinzel&family=Lato:ital,wght@0,100;0,300;1,700&family=Plus+Jakarta+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Alegreya&family=Cinzel&family=Lato:ital,wght@0,100;0,300;1,700&family=Plus+Jakarta+Sans:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: "Cinzel";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #704020;
+    font-size: 18px;
+}
+nav a:hover{
+    color: #d7b588;
+}
+
+.signin-btn a{
+    padding: 10px 20px;
+    background-color: #704020;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.signin-btn a:hover{
+    color: #d7b588;
+}
+.hero-section {
+    position: relative;
+    height: 700px;
+    background-image: url("./img/bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.dimmed-light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+}
+
+.title {
+    position: absolute;
+    text-align: right;
+    color: #ffffff;
+    top: 20%;
+    right: 10%;
+    width: 500px;
+    font-family: "Cinzel";
+    font-weight: bold;
+
+}
+.title span{
+    color: #d7b588;
+    font-family: "Cinzel";
+    font-weight: bold;
+}   
+.title h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Alegreya";
+}
+.booking{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 30%;
+}
+.booking button{
+    background-color: #d7b588;
+    color: #704020;
+    font-family: "Alegreya";
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 150px;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.booking button:hover{
+    background-color: #704020;
+    color: #d7b588;
+    transition: .3s;
+
+}
+.history-section{
+    padding: 40px;
+    background-color: #d7b588;
+}
+.history-title{
+    margin-left: 25%;
+    margin-bottom: 40px;
+    width: 720px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Alegreya";
+    line-height: 5px;
+    padding: 20px;
+}
+.history-title span{
+    color: #704020;
+    font-size: 38px;
+    font-family: "Cinzel";
+    font-weight: bolder;
+}
+.history{
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    border-radius: 24px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.history-info {
+    padding: 20px;
+    font-family: "Alegreya";
+    text-align: center;
+    justify-content: center;
+}
+.history-info p{
+    font-size: 20px;
+    margin: 20px;
+}
+.info-2{
+    margin-top: 22px;
+}
+.info-2 :nth-child(3){
+    color:#704020;
+    font-size: 22px;
+}
+.info-2 :nth-child(4){
+    font-weight: bolder;
+}
+.img1{
+    width: 50%;
+    height: 500px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+#history-2{
+    margin-top: 40px;
+}
+.img2{
+    width: 50%;
+    height: 500px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.about-section{
+    padding: 40px;
+    font-family: "Alegreya";
+
+}
+.about-header p{
+    color: #d7b588;
+}
+.about-header{
+    text-align: center;
+    color: #704020;
+    font-family: "Cinzel";
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: #d7b588;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 40px;
+}
+.section{
+    width: 300px;
+}
+.section p{
+    margin-top: 25%;
+    font-size: 20px;
+    color: #704020;
+}
+.img-section img{
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    
+}
+.sub-section{
+    font-size: 20px;
+    color: #704020;
+    margin-top: 42px;
+    margin-left: 80px;
+}
+.sub-section button{
+    padding: 10px 10px;
+    background-color: #704020;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sub-section button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.course-section{
+    background-color: #d7b588;
+    padding: 40px;
+}
+.course-info{
+    text-align: center;
+}
+.course-info h4{
+    font-family: "Cinzel";
+    font-size: 32px;
+    font-weight: bold;
+    color: #704020;
+}
+.course-info p{
+    font-family: "Alegreya";
+    font-size: 28px;
+    color: #fff;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+}
+.course-card{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    font-family: "Alegreya";
+    border: #704020;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.course-card img{
+    width: 300px;
+    height: 300px;
+}
+.course-card h4{
+    color: #704020;
+    font-weight: bold;
+}
+.course-card p{
+    font-size: 18px;
+    margin-top: 10px;
+}
